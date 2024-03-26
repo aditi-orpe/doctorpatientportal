@@ -7,4 +7,4 @@ FROM php:7.4-apache
 COPY . /var/www
 RUN chown -R www-data:www-data /var/www
 
-CMD ["PHP","index.php","start-apache","0.0.0.0:8000"]
+CMD ["PHP","index.php"]
